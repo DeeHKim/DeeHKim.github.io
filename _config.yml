@@ -1,3 +1,3 @@
-name: Gearoid O'Connor
+name: Daniel H Kim
 markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
