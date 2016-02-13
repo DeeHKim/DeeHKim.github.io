@@ -638,7 +638,7 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
     display: none; } }
 
 header {
-  background: url(../img/sunrise.jpg) center center;
+  background: url(../img/cityscape.jpg) center center;
   background-size: cover; }
   @media only screen and (min-width: 220px) {
     header {
@@ -704,7 +704,7 @@ header {
     color: rgba(245, 241, 237, 0.98); }
 
 footer {
-  background: url(../img/sunrise.jpg) center center;
+  background: url(../img/cityscape.jpg) center center;
   background-size: cover; }
   footer .lockup {
     padding: 50px 30px; }
@@ -1391,7 +1391,7 @@ form {
 
 #h_small {
   height: 170px;
-  background: url(../img/sunrise.jpg) center center;
+  background: url(../img/cityscape.jpg) center center;
   background-size: cover; }
   #h_small #nav_small {
     float: right;
