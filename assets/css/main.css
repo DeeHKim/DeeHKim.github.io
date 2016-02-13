@@ -654,7 +654,7 @@ header {
     margin: 30px 30px 30px; }
     header nav a {
       margin-left: 20px;
-      color: rgba(245, 241, 237, 0.98); }
+      color: rgba(0, 0, 0, 0.69); }
       @media only screen and (min-width: 220px) {
         header nav a {
           display: none; } }
@@ -665,7 +665,7 @@ header {
         color: black; }
   header h1 {
     text-align: center;
-    color: rgba(245, 241, 237, 0.98);
+    color: rgba(0, 0, 0, 0.69);
     text-transform: uppercase;
     letter-spacing: 0.05cm;
     margin-bottom: 20px;
@@ -688,7 +688,7 @@ header {
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
-      border: rgba(245, 241, 237, 0.98) solid 10px; }
+      border: rgba(0, 0, 0, 0.69) solid 10px; }
       @media only screen and (min-width: 220px) {
         header h1 span {
           padding: 0.2em 0.5em; } }
@@ -701,7 +701,7 @@ header {
   header .kicker {
     text-align: center;
     line-height: 1;
-    color: rgba(245, 241, 237, 0.98); }
+    color: rgba(0, 0, 0, 0.69); }
 
 footer {
   background: url(../img/cityscape.jpg) center center;
@@ -1399,7 +1399,7 @@ form {
     #h_small #nav_small a {
       display: inline-block;
       margin-left: 10px;
-      color: rgba(0, 0, 0, 0.5); }
+      color: rgba(0, 0, 0, 0.69); }
       #h_small #nav_small a:hover {
         color: black; }
   #h_small #h1_small {
@@ -1416,7 +1416,7 @@ form {
   #h_small .kicker {
     text-align: center;
     line-height: 1;
-    color: rgba(0, 0, 0, 0.5); }
+    color: rgba(0, 0, 0, 0.69); }
 
 .thumb-container {
   max-width: 960px;
