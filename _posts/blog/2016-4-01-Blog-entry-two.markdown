@@ -34,4 +34,7 @@ and display seems to be in demand.
 
 You can also check out one of the projects I've been working on where we utilized websockets to display real
 time data updates on both a chat feature and a board productivity feature:
+
 * **Github Repository**: [TownHall](https://github.com/TownHalls/TownHall)
+
+* **Website Url**: [TownHall](townhallapp.net)
