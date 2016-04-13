@@ -13,7 +13,8 @@ Angular for the front end.
 
 One interesting thing about websockets is that when emitting a broadcast to all other connected clients, the
 data doesn't actually come back to your own client.
-~~~~
+
+```javascript
 io.on('connection', function(socket){
 
   socket.on('chat', function(message){
@@ -22,8 +23,7 @@ io.on('connection', function(socket){
   });
   socket.emit('message', 'HIIII');
 });
-
-~~~~
+```
 
 So once the server hears the incoming 'chat' from the client side, it broadcasts that information
 to all other clients, but the sender actually doesn't receive back that information. Therefore I had to
