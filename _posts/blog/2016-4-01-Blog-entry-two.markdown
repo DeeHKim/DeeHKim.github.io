@@ -20,10 +20,9 @@ io.on('connection', function(socket){
     console.log(message);
       socket.broadcast.emit('message', message);
   });
-
   socket.emit('message', 'HIIII');
-
 });
+
 ~~~~
 
 So once the server hears the incoming 'chat' from the client side, it broadcasts that information
