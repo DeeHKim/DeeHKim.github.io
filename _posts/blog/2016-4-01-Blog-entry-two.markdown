@@ -3,6 +3,7 @@ layout: post
 title:  "A simple SocketIO chat with Angular"
 date:   2016-4-01 10:51:11
 categories: blog
+grab: daniel socket Angular chat
 ---
 
 In my recent programming adventures, I've noticed the increasing popularity of Websockets and real time data
