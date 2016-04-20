@@ -8,9 +8,13 @@ Binary Heap
 A heap is a special kind of tree in which a parent node is ordered only in respect to its immediate children. Unlike the binary search tree you may have implemented, where the entire tree is ordered, in a heap the only order guaranteed is between a node and its parent.
 
 In a binary heap each node should have only zero, one, or two children. Each node must have 2 children before the next oldest node can have any children. Therefore the 0th node will be the parent of the 1st and 2nd nodes, the 1st node will be the parent of the 3rd and 4th nodes, and the 2nd node will be the parent of the 5th and 6th nodes. In a specific kind of binary heap, the binary min heap, every node is less than its immediate children:
+
 ……..0…….
+
  …1………2..
+
 .3…4…..5…6
+
 7……………
 
 There is only one place at any given time in a binary heap where a node can be added or removed. In the example above, the next node will be inserted as the second child of 3. If we were to remove a node instead, we would remove the 7. This mimics the behavior of a stack and allows us to manage the heap in a very memory efficient way, using a list or array. For example, the heap pictured above can be described as:
@@ -20,10 +24,11 @@ There is only one place at any given time in a binary heap where a node can be a
 where we always add to or remove from the end of the array.
 
 A well known fact, utilized with binary heaps stored in arrays, is that we can calculate the index of a node’s parent or children using math:
-```javascript
+
 parentIndex = Math.floor( (index - 1) / 2 )
+
 childrenIndices = [index * 2 + 1, index * 2 + 2]
-```
+
 
 When adding a new node to a binary min heap, it could be that we violate the property of the heap whereby every node is of lower value than its children. Thus whenever we insert into a binary min heap, we must compare the inserted node to its parent, and swap their positions if it is less than its parent. After a swap it must compare itself to its new parent, continuing until it is no longer less than its parent.
 
