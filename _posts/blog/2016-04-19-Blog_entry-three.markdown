@@ -36,6 +36,8 @@ Something similar happens when we want to remove the root node. Because we can o
 
 You can see a great visualization of a binary min heap in action here, play around with it until you can easily guess how the heap will behave with both insertion and removal: https://www.cs.usfca.edu/~galles/visualization/Heap.html
 
+_____________________________________________________________________________________
+
 ```javascript
 function BinaryHeap () {
   this._heap = [];
